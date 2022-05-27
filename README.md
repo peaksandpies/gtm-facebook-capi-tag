@@ -18,6 +18,14 @@ The event you want to measure with the tag. Facebook uses a set of [standard eve
 
 If the standard events do not suit your needs, you can also use a [custom event name](https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#custom-events).
 
+### Anonymise IP address
+
+When checked, the `aip` parameter is sent to the server-side solution, which discards the remote IP address and does not send it to Facebook.
+
+### Anonymise user agent
+
+When checked, the `aua` parameter is sent to the server-side solution, which discards the user agent and does not send it to Facebook.
+
 ### Object Properties
 
 You can include [object properties](https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#object-properites) with any event.
