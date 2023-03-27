@@ -15,6 +15,12 @@
 homepage: "https://www.peaksandpies.com"
 documentation: "https://github.com/peaksandpies/gtm-facebook-capi-tag#readme"
 versions:
+  # Latest version
+  - sha: 3a1954c1ee131575f0e5df1b1b5331bf307b8cb9
+    changeNotes: Update template brand
+  # Older versions
+  - sha: d90a1308c34ab4e8def3e0d2964fc2277c882ae7
+    changeNotes: Update License text
   - sha: 9424eeafe7280c210ce758d5d98ece65989928bb
     changeNotes: Added support for IP and user agent anonymisation
   - sha: a97c8504e6d5d8f306e56fe0651cd18158f65ef3
